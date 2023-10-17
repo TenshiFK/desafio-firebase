@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'NATS', sans-serif;
+    box-sizing: border-box;
+}
+
+.conteudo-login{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #650088;
+}
+
+.header{
+    width: 100%;
+    min-height: 160px;
+}
+
+.header-interno{
+    width: 100%;
+    min-height: 160px;
+    background-color: #650088;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-sair{
+    background: none;
+    border: none;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.sair{
+    display: flex;
+    position: relative;
+    left: 450px;
+}
+
+.Logo{
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    padding: 20px;
+    font-size: 10px;
+}
+
+.Logo-interno{
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    padding: 20px;
+    font-size: 10px;
+}
+
+.titulo-logo{
+    margin-top: 25px;
+}
+
+.conteudo-login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario-login{
+    width: 400px;
+    height: 360px;
+    border: 1px solid #000036;
+    border-radius: 2px;
+    padding: 20px 40px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-login{
+    color: #650088;
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.input-login{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 8.203px;
+    border: 0.82px solid #000036;
+    background: #FFF;
+    margin-bottom: 35px;
+}
+
+.btn-login{
+    border: none;
+    border-radius: 8.203px;
+    background: #650088;
+    color: #FFFFFF;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-login:hover, .btn-home:hover, .btn-add{
+    background-color: #50006b;
+    cursor: pointer;
+}
+
+.btn-home, .btn-add{
+    border: none;
+    border-radius: 8.203px;
+    background: #650088;
+    color: #FFFFFF;
+    height: 40px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    width: 160px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.label-add{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.main-add{
+    display: flex;
+    width: 100%;
+    padding: 40px 20px;
+}
+
+.main-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.subtitulo-home{
+    margin-top: 40px;
+    color: rgba(0, 0, 0, 0.60);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: normal;
+    max-width: 500px;
+}
+
+.h1-home{
+    margin-top: 50px;
+}
+
+.voltar{
+    max-width: 10%;
+}
+
+.form-add{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1-add{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.form-add-add{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-add{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #650088;
+    background: #FFF;
+}
+
+.input-add-textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #650088;
+    background: #FFF;
+    margin-bottom: -10px;
+}
+
+.tabela-home{
+    list-style: none;
+    border-radius: 20px;
+    border: 4px solid #650088;
+    background: #FFF;
+    min-width: 800px;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-att, .btn-del{
+    border: none;
+    border-radius: 8.203px;
+    background: #650088;
+    color: #FFFFFF;
+    height: 30px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    width: 120px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.itens-tabela{
+    display: flex;
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.titulos-tabela{
+    display: flex;
+    color: #000;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.line{
+    height: 1px;
+    background-color: #000;
+    width: 100%;
+    margin: 15px 0px;
+}
+.line-titulos{
+    height: 1px;
+    background-color: #000;
+    width: 60%;
+    margin: 15px 0px;
+}
+
+.musica, .cantor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vazio{
+    width: 100%;
+}
+
+.op{
+    margin-right: 130px;
+}
+
+.hr-itens{
+    margin: 0 20px;
+}
